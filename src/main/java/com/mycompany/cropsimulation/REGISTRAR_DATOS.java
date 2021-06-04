@@ -2,6 +2,7 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
+Editado
  */
 package com.mycompany.cropsimulation;
 
@@ -28,18 +29,21 @@ public class REGISTRAR_DATOS extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jLabel2 = new javax.swing.JLabel();
+        jl_fondo = new javax.swing.JLabel();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 905, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 564, Short.MAX_VALUE)
-        );
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(null);
+
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        jLabel2.setText("TITULO");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(300, 80, 210, 120);
+
+        jl_fondo.setBackground(new java.awt.Color(255, 255, 255));
+        jl_fondo.setOpaque(true);
+        getContentPane().add(jl_fondo);
+        jl_fondo.setBounds(0, 0, 1400, 740);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -80,5 +84,7 @@ public class REGISTRAR_DATOS extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jl_fondo;
     // End of variables declaration//GEN-END:variables
 }

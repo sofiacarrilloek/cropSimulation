@@ -5,7 +5,7 @@
  */
 package com.mycompany.cropsimulation;
 
-/**
+/**Editando lisyto
  *
  * @author AMMC
  */
@@ -19,7 +19,12 @@ import org.apache.commons.math3.stat.StatUtils;
 import org.math.array.DoubleArray.*;
 import org.math.plot.Plot2DPanel;
 import org.math.plot.plotObjects.BaseLabel;
+//es
 
+/**
+ *
+ * @author sofia
+ */
 public class INTERPOLACION {
     
     double [] x= {1, 2, 3, 4, 5, 6};
@@ -27,6 +32,10 @@ public class INTERPOLACION {
     
     UnivariateInterpolator interpolador =new SplineInterpolator();
     Plot2DPanel plot=new Plot2DPanel();
+
+    /**
+     *
+     */
     public INTERPOLACION(){
         UnivariateFunction polinomio=interpolador.interpolate(x, y);
         int n=(int) Math.abs((StatUtils.max(x)-StatUtils.min(x))/0.1);
