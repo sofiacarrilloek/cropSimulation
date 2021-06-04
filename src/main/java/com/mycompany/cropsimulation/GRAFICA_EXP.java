@@ -157,8 +157,8 @@ public class GRAFICA_EXP extends javax.swing.JFrame {
         String titulo="GANANCIAS";
         for(int i=0; i<t.length; i++){
             if(i==0){
-                t[0]=500;
-                y[0]=500;
+                t[0]=G1;
+                y[0]=G1;
             }
             if(i>0&&i<6){    
                 t[i]=t[i-1]+(A*(y[i-1]-t[i-1])); 
@@ -179,12 +179,12 @@ public class GRAFICA_EXP extends javax.swing.JFrame {
         
         try{
             DefaultCategoryDataset ds = new DefaultCategoryDataset();
-            ds.addValue(GG1, M1, "");
-            ds.addValue(GG2, M2, "");
-            ds.addValue(GG3, M3, "");
-            ds.addValue(GG4, M4, "");
-            ds.addValue(GG5, M5, "");
-            ds.addValue(GG6, M6, "");
+            ds.addValue(G1, M1, "");
+            ds.addValue(G2, M2, "");
+            ds.addValue(G3, M3, "");
+            ds.addValue(G4, M4, "");
+            ds.addValue(G5, M5, "");
+            ds.addValue(G6, M6, "");
             ds.addValue(GG7, "Pronóstico", "");
             
             JFreeChart jf=ChartFactory.createBarChart3D(titulo, "MES", "", ds, PlotOrientation.HORIZONTAL, true, true, true);
