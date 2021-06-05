@@ -30,20 +30,76 @@ public class REGISTRAR_DATOS extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel2 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
         jl_fondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
-        jLabel2.setText("TITULO");
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("PRONÓSTICO DE CULTIVO");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(300, 80, 210, 120);
+        jLabel2.setBounds(40, 20, 340, 30);
+
+        jLabel1.setBackground(new java.awt.Color(56, 99, 7));
+        jLabel1.setOpaque(true);
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(0, 0, 1400, 70);
+
+        jLabel3.setBackground(new java.awt.Color(208, 244, 198));
+        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel3.setText("D0F4C6");
+        jLabel3.setToolTipText("");
+        jLabel3.setOpaque(true);
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(460, 90, 80, 40);
+
+        jLabel4.setBackground(new java.awt.Color(143, 161, 17));
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel4.setText("8FA111");
+        jLabel4.setToolTipText("");
+        jLabel4.setOpaque(true);
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(60, 90, 80, 40);
+
+        jLabel5.setBackground(new java.awt.Color(56, 99, 9));
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel5.setText("386309");
+        jLabel5.setToolTipText("");
+        jLabel5.setOpaque(true);
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(160, 90, 80, 40);
+
+        jLabel6.setBackground(new java.awt.Color(213, 194, 30));
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel6.setText("D5C21E");
+        jLabel6.setToolTipText("");
+        jLabel6.setOpaque(true);
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(260, 90, 80, 40);
+
+        jLabel7.setBackground(new java.awt.Color(191, 219, 106));
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel7.setText("BFDB6A");
+        jLabel7.setToolTipText("");
+        jLabel7.setOpaque(true);
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(360, 90, 80, 40);
 
         jl_fondo.setBackground(new java.awt.Color(255, 255, 255));
         jl_fondo.setOpaque(true);
         getContentPane().add(jl_fondo);
-        jl_fondo.setBounds(0, 0, 1400, 740);
+        jl_fondo.setBounds(0, 70, 1400, 650);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -84,7 +140,13 @@ public class REGISTRAR_DATOS extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jl_fondo;
     // End of variables declaration//GEN-END:variables
 }

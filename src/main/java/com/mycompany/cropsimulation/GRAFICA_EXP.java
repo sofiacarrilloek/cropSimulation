@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package com.mycompany.cropsimulation;
-//hhha
+
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartFrame;
 import org.jfree.chart.JFreeChart;

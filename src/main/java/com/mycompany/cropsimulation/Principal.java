@@ -18,7 +18,8 @@ public class Principal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Prueba");
+        MENU_GLOSARIO a = new MENU_GLOSARIO();
+        a.setVisible(true);
     }
     
 }

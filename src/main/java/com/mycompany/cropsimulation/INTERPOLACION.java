@@ -5,7 +5,7 @@
  */
 package com.mycompany.cropsimulation;
 
-/**Editando lisyto
+/**
  *
  * @author AMMC
  */
@@ -57,7 +57,7 @@ public class INTERPOLACION {
         frame.setSize(600,500);
         frame.add(plot,BorderLayout.CENTER);
         frame.setVisible(true);
-        /*public static void main(String[] args) {
+        /*++public static void main(String[] args) {
         new Interpolación();
     }*/
         //SERVIA PARA QUE SE LLAME EL MÉTODO DE UNA, PERO SE PUEDE PONER new Interpolación(); EN EL BOTÓN DONDE SE VAYA A LLAMAR LA GRÁFICA
