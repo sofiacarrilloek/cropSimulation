@@ -271,7 +271,7 @@ public class MENU_GLOSARIO extends javax.swing.JFrame {
 
     private void btn_capitalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_capitalActionPerformed
         // TODO add your handling code here:
-        GRAFICA_EXP a = new GRAFICA_EXP();
+        GRAFICA_EXP1 a = new GRAFICA_EXP1();
         a.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_btn_capitalActionPerformed

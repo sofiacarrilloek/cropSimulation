@@ -18,7 +18,7 @@ public class Principal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        MENU_GLOSARIO a = new MENU_GLOSARIO();
+        GRAFICA_EXP1 a = new GRAFICA_EXP1();
         a.setVisible(true);
     }
     

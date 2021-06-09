@@ -56,46 +56,63 @@ public class GRAFICA_EXP extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel1.setText("Ganancias mes 6");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(73, 306, 147, 26));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 370, 147, 26));
 
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel2.setText("Ganancias mes 3");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(73, 138, 147, 26));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 220, 147, 26));
 
+        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel3.setText("Ganancias mes 2");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(73, 90, 147, 26));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 170, 147, 26));
 
+        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel4.setText("Ganancias mes 1");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(73, 42, 147, 29));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 120, 147, 29));
 
+        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel5.setText("Ganancias mes 5");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(73, 255, 147, 26));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 320, 147, 26));
 
+        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel6.setText("Ganancias mes 4");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(73, 206, 147, 26));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 270, 147, 26));
 
+        txt3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         txt3.setText("jTextField1");
-        getContentPane().add(txt3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 138, 112, 48));
+        getContentPane().add(txt3, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 220, 112, 30));
 
+        txt2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         txt2.setText("jTextField1");
-        getContentPane().add(txt2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 90, 112, 30));
+        getContentPane().add(txt2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 170, 112, 30));
 
+        txt1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         txt1.setText("jTextField1");
-        getContentPane().add(txt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 41, 112, 31));
+        getContentPane().add(txt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 120, 112, 30));
 
+        txt4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         txt4.setText("jTextField1");
-        getContentPane().add(txt4, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 204, 112, 31));
+        getContentPane().add(txt4, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 270, 112, 30));
 
+        txt6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         txt6.setText("jTextField1");
         txt6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt6ActionPerformed(evt);
             }
         });
-        getContentPane().add(txt6, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 300, 112, 30));
+        getContentPane().add(txt6, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 370, 112, 30));
 
+        txt5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         txt5.setText("jTextField1");
-        getContentPane().add(txt5, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 253, 112, 31));
+        txt5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt5ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txt5, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 320, 112, 30));
 
         btnG.setText("GRAFICAR");
         btnG.addActionListener(new java.awt.event.ActionListener() {
@@ -105,36 +122,38 @@ public class GRAFICA_EXP extends javax.swing.JFrame {
         });
         getContentPane().add(btnG, new org.netbeans.lib.awtextra.AbsoluteConstraints(179, 516, 178, 61));
 
+        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel7.setText("GANANCIA");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(409, 11, 99, 20));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 90, 99, 20));
 
+        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel8.setText("MES");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(266, 11, 99, 20));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 90, 99, 20));
 
-        txtg4.setText("jTextField1");
-        getContentPane().add(txtg4, new org.netbeans.lib.awtextra.AbsoluteConstraints(377, 204, 112, 31));
+        txtg4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        getContentPane().add(txtg4, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 270, 112, 30));
 
-        txtg6.setText("jTextField1");
-        getContentPane().add(txtg6, new org.netbeans.lib.awtextra.AbsoluteConstraints(377, 302, 112, 35));
+        txtg6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        getContentPane().add(txtg6, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 370, 112, 30));
 
-        txtg5.setText("jTextField1");
-        getContentPane().add(txtg5, new org.netbeans.lib.awtextra.AbsoluteConstraints(377, 253, 112, 31));
+        txtg5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        getContentPane().add(txtg5, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 320, 112, 30));
 
-        txtg3.setText("jTextField1");
-        getContentPane().add(txtg3, new org.netbeans.lib.awtextra.AbsoluteConstraints(377, 138, 112, 48));
+        txtg3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        getContentPane().add(txtg3, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 220, 112, 30));
 
-        txtg2.setText("jTextField1");
-        getContentPane().add(txtg2, new org.netbeans.lib.awtextra.AbsoluteConstraints(377, 87, 112, 33));
+        txtg2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        getContentPane().add(txtg2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 170, 112, 30));
 
-        txtg1.setText("jTextField1");
-        getContentPane().add(txtg1, new org.netbeans.lib.awtextra.AbsoluteConstraints(377, 41, 112, 31));
+        txtg1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        getContentPane().add(txtg1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 120, 112, 30));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnGActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGActionPerformed
         // GRÁFICA
-        int pos = 0;
+       /* int pos = 0;
         double pron;
         double A=0.99;
         double [] t = new double[6];
@@ -195,13 +214,17 @@ public class GRAFICA_EXP extends javax.swing.JFrame {
         }catch (Exception e){
             System.out.println("ERROR "+e);
             
-        }
+        }*/
         
     }//GEN-LAST:event_btnGActionPerformed
 
     private void txt6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt6ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txt6ActionPerformed
+
+    private void txt5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt5ActionPerformed
 
     /**
      * @param args the command line arguments
